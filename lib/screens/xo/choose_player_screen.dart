@@ -48,7 +48,8 @@ class ChoosePlayerScreen extends StatelessWidget {
                             child: const Center(
                                 child: Text(
                               "X",
-                              style: TextStyle(fontSize: 60, color: Colors.red),
+                              style:
+                                  TextStyle(fontSize: 60, color: Colors.black),
                             )),
                           ),
                         )),
