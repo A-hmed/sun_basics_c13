@@ -20,18 +20,18 @@ class CalculatorButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-        margin: EdgeInsets.all(10),
+        margin: EdgeInsets.all(8),
         child: ElevatedButton(
             onPressed: () {
               onClick(digit);
             },
             style: ButtonStyle(
                 shape: WidgetStatePropertyAll(RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(16))),
-                backgroundColor: WidgetStatePropertyAll(Colors.blue)),
+                    borderRadius: BorderRadius.circular(20))),
+                backgroundColor: WidgetStatePropertyAll(Colors.yellow)),
             child: Text(
               digit,
-              style: TextStyle(color: textColor, fontSize: 32),
+              style: TextStyle(color: textColor, fontSize: 36),
             )),
       ),
     );
