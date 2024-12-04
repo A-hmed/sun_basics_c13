@@ -24,7 +24,7 @@ class XoButton extends StatelessWidget {
         style: TextStyle(
             fontSize: 42,
             fontWeight: FontWeight.bold,
-            color: symbol == "x" ? Colors.red : Colors.green),
+            color: symbol == "x" ? Colors.black : Colors.green),
       ),
     ));
   }
